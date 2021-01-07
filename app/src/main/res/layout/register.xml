@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Register Account"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Email"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Username"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/txtconfirm"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"/>
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="Dengan Mendaftar, Anda Telah Menyetujui Syarat dan Ketentuan Kami."/>
+
+</LinearLayout>
